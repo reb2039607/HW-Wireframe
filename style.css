@@ -22,11 +22,17 @@ nav {
 section {
     width: 495px;
     background: #ebebeb;
+    padding: 10px;
+}
+
+article {
+    border: 10px;
 }
 
 #aside {
     width: 495px;
     background: #ebebeb;
+    float: right;
 }
 
 footer {
