@@ -12,15 +12,16 @@ body {
 
 header {
     background: #ebebeb;
-    padding: 20px;
-    margin-left: 15p0x;
+    padding: 30px;
+    margin: 7px;
+    width: 100%;
 }
 
 div {
     background: #ebebeb;
     padding: 30px;
-    border-width: 15px;
-    margin: 5px;
+    margin: 7px;
+    width: 100%;
     /* fixed positioning can work well w/nav bars */
 }
 
@@ -28,7 +29,8 @@ div {
     width: 495px;
     border-width: 15px;
     background: #ebebeb;
-    padding: 10px;
+    padding: 15px;
+    margin-left: 5px;
 }
 
 article {
@@ -49,6 +51,7 @@ h1, h2 {
 p {
     border: 10px;
     margin: 15px;
+    padding: 20px;
     background: #ebebeb;
     color: #777;  
 
@@ -56,16 +59,21 @@ p {
 
 
 #aside {
-    padding: 15px 160px 400px 160px;
+    padding: 15px 180px 270px 160px;
     background: #ebebeb;
     float: right;
-    margin-right: 20px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 20px;
     
 }
 
 footer {
-    width: 495px;
+    width: 100%;
     color: #777;
     background: #ebebeb;
+    border: #777;
+    /* border-width: 15px; */
+    margin: 15px;
     padding: 10px;
 }
